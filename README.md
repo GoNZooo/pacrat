@@ -32,7 +32,7 @@ You may also choose to pass '--noconfirm' (to skip 'Y/n' prompts) like so:
 
 ## Details (`build_nest.sh`)
 
-When building the nest file one can specify a filename like so:
+When building the nest file one can specify a filename like so (default is 'pac.nest'):
 
     $ ./build_nest.sh -f <filename>
 
