@@ -39,3 +39,10 @@ When building the nest file one can specify a filename like so (default is 'pac.
 `build_nest.sh` defaults to using the following options for pacman:
 
     $ pacman -Qten > <specified/default filename>
+
+## Details (`ignored_packages`)
+
+Any packages that need to be ignored can be put in `ignored_packages`.
+Currently there are examples like bootloaders or the like, which can vary
+a lot in applicability for different computers and as such may not be
+advisable to version control like this.
