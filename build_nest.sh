@@ -18,4 +18,4 @@ while getopts ":f:" opt; do
 	esac
 done
 
-pacman -Qten > $PACFILE
+pacman -Qtenq > $PACFILE
