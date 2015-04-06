@@ -1,75 +1,75 @@
-adobe-source-code-pro-fonts 1.017-2
-adobe-source-sans-pro-fonts 2.010ro+1.065it-2
-alsa-utils 1.0.29-1
-autoconf 2.69-2
-automake 1.15-1
-bison 3.0.4-1
-cmus 2.6.0-4
-cronie 1.4.12-1
-ctags 5.8-5
-dosfstools 3.0.27-1
-efibootmgr 0.11.0-1
-elixir 1.0.3-2
-emacs 24.4-2
-erlang-docs 17.3-1
-evince 3.14.2-1
-fakeroot 1.20.2-1
-feh 2.12-1
-firefox 37.0.1-1
-flashplugin 11.2.202.451-1
-flex 2.5.39-1
-getmail 4.47.0-1
-gettext 0.19.4-1
-gummiboot 48-1
-htop 1.0.3-2
-httpie 0.9.2-1
-inetutils 1.9.2-2
-iputils 20121221-3
-jfsutils 1.1.15-4
-licenses 20140629-1
-logrotate 3.8.9-1
-lvm2 2.02.116-1
-lxrandr 0.3.0-1
-make 4.1-1
-man-db 2.7.1-1
-man-pages 3.82-1
-mdadm 3.3.2-1
-mosh 1.2.4-3
-mpv 0.8.3-1
-mumble 1.2.8-3
-nano 2.4.0-1
-netctl 1.10-1
-nvidia 346.47-10
-pacman 4.2.1-1
-patch 2.7.5-1
-pavucontrol 3.0-1
-pcmciautils 018-7
-php 5.6.7-1
-pkg-config 0.28-2
-procps-ng 3.3.10-2
-rebar 1:2.5.1-1
-reiserfsprogs 3.6.24-1
-rxvt-unicode 9.21-1
-simplescreenrecorder 0.3.3-1
-skype 4.3.0.37-3
-sudo 1.8.13-1
-terminus-font 4.39-1
-tmux 1.9_a-2
-transmission-gtk 2.84-1
-ttf-anonymous-pro 1.003-2
-ttf-arphic-uming 0.2.20080216.1-5
-ttf-baekmuk 2.2-9
-ttf-inconsolata 20090215-5
-unzip 6.0-10
-usbutils 008-1
-uzbl-tabbed 2012.05.14-3
-vi 1:050325-4
-vim-colorsamplerpack 2012.10.28-3
-vim-guicolorscheme 1.2-4
-vim-jellybeans 1.5-1
-wget 1.16.3-1
-which 2.21-1
-xfsprogs 3.2.2-1
-xmonad-contrib 0.11.3-2
-xscreensaver 5.32-1
-zsh-syntax-highlighting 0.2.1-1
+adobe-source-code-pro-fonts
+adobe-source-sans-pro-fonts
+alsa-utils
+autoconf
+automake
+bison
+cmus
+cronie
+ctags
+dosfstools
+efibootmgr
+elixir
+emacs
+erlang-docs
+evince
+fakeroot
+feh
+firefox
+flashplugin
+flex
+getmail
+gettext
+gummiboot
+htop
+httpie
+inetutils
+iputils
+jfsutils
+licenses
+logrotate
+lvm2
+lxrandr
+make
+man-db
+man-pages
+mdadm
+mosh
+mpv
+mumble
+nano
+netctl
+nvidia
+pacman
+patch
+pavucontrol
+pcmciautils
+php
+pkg-config
+procps-ng
+rebar
+reiserfsprogs
+rxvt-unicode
+simplescreenrecorder
+skype
+sudo
+terminus-font
+tmux
+transmission-gtk
+ttf-anonymous-pro
+ttf-arphic-uming
+ttf-baekmuk
+ttf-inconsolata
+unzip
+usbutils
+uzbl-tabbed
+vi
+vim-colorsamplerpack
+vim-guicolorscheme
+vim-jellybeans
+wget
+which
+xfsprogs
+xmonad-contrib
+xscreensaver
+zsh-syntax-highlighting
