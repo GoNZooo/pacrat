@@ -23,15 +23,19 @@ of emergencies.
 ## Details (`pacrat.sh`)
 
 One can specify a custom nestfile like so (default is 'pac.nest'):
+
     $ ./pacrat.sh -f <filename>
 
 You may also choose to pass '--noconfirm' (to skip 'Y/n' prompts) like so:
+
     $ ./pacrat.sh -n
 
 ## Details (`build_nest.sh`)
 
 When building the nest file one can specify a filename like so:
+
     $ ./build_nest.sh -f <filename>
 
 `build_nest.sh` defaults to using the following options for pacman:
+
     $ pacman -Qten > <specified/default filename>
