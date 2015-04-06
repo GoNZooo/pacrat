@@ -25,6 +25,7 @@ while getopts ":Nf:" opt; do
 	esac
 done
 
+# -q to fetch list without version numbers
 pacman -Qq > "/tmp/paclist"
 diff --suppress-common-lines "$PACFILE" /tmp/paclist | gawk -e '/^< / { print $2 }' > "/tmp/paclist_install"
 PACLIST=`diff --suppress-common-lines /tmp/paclist_install "./ignored_packages" | gawk -e '/^< / { print $2 }'`
