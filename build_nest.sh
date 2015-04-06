@@ -2,7 +2,7 @@
 
 PACFILE="./pac.nest"
 
-while getopts ":nf:" opt; do
+while getopts ":f:" opt; do
 	case $opt in
 		f)
 			PACFILE=$OPTARG
