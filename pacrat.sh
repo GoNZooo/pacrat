@@ -7,22 +7,22 @@ PACMAN_ARGS=""
 PACFILE="./pac.nest"
 
 while getopts ":Nf:" opt; do
-	case $opt in
-		N)
-			PACMAN_ARGS="--noconfirm $PACMAN_ARGS"
-			;;
-		f)
-			PACFILE=$OPTARG
-			;;
-		:)
-			echo "-$OPTARG requires an argument" >&2
-			exit 1
-			;;
-		\?)
-			echo "Invalid argument -$OPTARG" >&2
-			exit 1
-			;;
-	esac
+    case $opt in
+        N)
+            PACMAN_ARGS="--noconfirm $PACMAN_ARGS"
+            ;;
+        f)
+            PACFILE=$OPTARG
+            ;;
+        :)
+            echo "-$OPTARG requires an argument" >&2
+            exit 1
+            ;;
+        \?)
+            echo "Invalid argument -$OPTARG" >&2
+            exit 1
+            ;;
+    esac
 done
 
 # -q to fetch list without version numbers
