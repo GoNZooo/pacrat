@@ -1,11 +1,11 @@
 #!/bin/bash
 
-PACFILE="./pac.nest"
+pacfile="./pac.nest"
 
 while getopts ":f:" opt; do
     case $opt in
         f)
-            PACFILE=$OPTARG
+            pacfile=$OPTARG
             ;;
         :)
             echo "-$OPTARG requires an argument" >&2
@@ -18,4 +18,4 @@ while getopts ":f:" opt; do
     esac
 done
 
-pacman -Qtenq > $PACFILE
+pacman -Qtenq > $pacfile
